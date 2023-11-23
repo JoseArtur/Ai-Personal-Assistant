@@ -3,7 +3,7 @@
 
 # teamf-frontend
 
-This guide will walk you through the steps required to set up the TeamF frontend for React.
+This guide will walk you through the steps required to set up the frontend for React.
 Follow these instructions to run the front-end of the app.
 
 ## Prerequisites
@@ -36,7 +36,7 @@ yarn start
 
 ## State Manager Structure
 
-We have two folders as explained bellow. <br/>
+It have two folders as explained bellow. <br/>
 The main idea is to create a folder for each state manager we need in the stores folder. For example, if we add a state manager to control the login, we can add a folder called login.
 
 ### Directories
@@ -52,9 +52,9 @@ You can look into the demo component mounted in the App.tsx to understand better
 
 It renders the Menu and the UserList. If you select a user, the name will be loaded in the Menu.
 
-# TeamF Backend Setup Guide
+# Backend Setup Guide
 
-This guide will walk you through the steps required to set up the TeamF backend for Python. Follow these instructions to create and configure your environment for running the server.
+This guide will walk you through the steps required to set up the backend for Python. Follow these instructions to create and configure your environment for running the server.
 
 ## Prerequisites
 
