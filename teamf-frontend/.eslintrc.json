@@ -33,7 +33,6 @@
         ],
         "react/button-has-type": 0,
         "no-undef": 0,
-
         "no-use-before-define": [
             "error",
             {
