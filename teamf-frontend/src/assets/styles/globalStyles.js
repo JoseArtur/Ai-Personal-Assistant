@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
-  html, body, .App {
+  html, body, .App, #root {
     height: 100%;
   }
 
@@ -31,6 +31,8 @@ const GlobalStyle = createGlobalStyle`
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+  
 `
 
 export default GlobalStyle

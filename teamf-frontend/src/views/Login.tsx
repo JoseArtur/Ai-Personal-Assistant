@@ -39,11 +39,11 @@ const Login = () => {
 
     useEffect(() => {
         if (isJWTValid(localStorage.getItem('authToken'))) {
-            navigate('/home')
+            navigate('/app')
         }
         if (isSuccess && 'token' in data) {
             localStorage.setItem('authToken', data.token)
-            navigate('/home')
+            navigate('/app')
         }
     }, [isSuccess])
 

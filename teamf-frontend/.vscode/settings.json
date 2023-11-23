@@ -1,5 +1,8 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "prettier.prettierPath": "./node_modules/prettier/index.cjs"
+    "prettier.prettierPath": "./node_modules/prettier/index.cjs",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    }
 }
